@@ -4,84 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Things To Do in AA</title>
 </head>
 <body>
     <div class="skip" ><a tabindex="0" href="#main">Jump To Content</a></div>
     <header>
-		<nav class="navbar">
-			<ul>
-				<li><a href = "index.html" >Home</a></li>
-				<li><a href = "restaurants.html">Restaurants</a></li>
-				<li><a href = "study.html">Study Spots</a></li>
-			    <li class = "active"><a href = "events.html">To Do in AA</a></li>
-			</ul>
-		</nav>
+        <marquee behavior="scroll" direction="right">Make sure to watch Michigan take on Purdue in the Big Ten Championship Game on Saturday, December 3rd at 8 p.m.!</marquee>
         <h1>Things To Do in AA</h1>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "restaurants.html">Restaurants</a></li>
+                <li><a href = "study.html">Study Spots</a></li>
+                <li class="active"></li><a href = "events.html">To Do in AA</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class = "container" id = "main">
-        <div class ="text-block">
-            <p> Looking for some fun things to do during your free time? Here are some places you should visit! </p>
-        </div>
+    <main class = "container" id = "events-container">
+        <!-- <div class = "gallery"> -->
         <div class="card">
             <header>
-                <h2>The Arb</h2>
-                <img src="images2/arb.jpeg" alt="Image of Nichols Arboretum" width="300"/>
+                <h2>Nichols Arboretum</h2>
+                <h3>("The Arb")</h3>
             </header>
+            <img src="images2/arb.jpeg" alt="Image of Nichols Arboretum" width="300"/>
+            <a href="https://mbgna.umich.edu/nichols-arboretum/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>UMMA</h2>
-                <img src="images2/umma.jpeg" alt="Image of UMMA" width="400"/>
             </header>
+            <img src="images2/umma.jpeg" alt="Image of UMMA" width="300"/>
+            <a href="https://umma.umich.edu/" target="_blank">
+                <button id="event-button" >Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Michigan and State Theaters</h2>
-                <img src="images2/theater.jpeg" alt="Image of Michigan Theater" width="300"/>
             </header>
+            <img src="images2/theater.jpeg" alt="Image of Michigan Theater" width="300"/>
+            <a href="https://michtheater.org/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Attend a UM Sports Game</h2>
-                <img src="images2/stadium.jpeg" alt="Image of Michigan Football Stadium" width="300"/>
             </header>
+            <img src="images2/stadium.jpeg" alt="Image of Michigan Football Stadium" width="300"/>
+            <a href="https://mgoblue.com/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Ann Arbor Farmer's Market</h2>
-                <img src="images2/kerrytown.jpeg" alt="Image of Ann Arbor Farmer's Market" width="300"/>
             </header>
+            <img src="images2/kerrytown.jpeg" alt="Image of Ann Arbor Farmer's Market" width="300"/>
+            <a href="https://www.a2gov.org/departments/Parks-Recreation/parks-places/farmers-market/pages/default.aspx" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Museum of Natural History</h2>
-                <img src="images2/museum.jpeg" alt="Image of UM Museum of Natural History" width="300"/>
             </header>
+            <img src="images2/museum.jpeg" alt="Image of UM Museum of Natural History" width="300"/>
+            <a href="https://lsa.umich.edu/ummnh/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Picnic in the Law Quad</h2>
-                <img src="images2/lawquad.jpeg" alt="Image of UM Law Quad" width="300"/>
             </header>
+            <img src="images2/lawquad.jpeg" alt="Image of UM Law Quad" width="300"/>
+            <a href="https://www.annarbor.org/listing/university-of-michigan-law-quad/1350/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Walk Down Main Street</h2>
-                <img src="images2/mainstr.jpeg" alt="Main Street" width="300"/>
             </header>
+            <img src="images2/mainstr.jpeg" alt="Main Street" width="300"/>
+            <a href="https://mainstreetannarbor.org/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
         <div class="card">
             <header>
                 <h2>Nickels Arcade</h2>
-                <img src="images2/arcade.jpeg" alt="Nickels Arcade" width="300"/>
             </header>
+            <img src="images2/arcade.jpeg" alt="Nickels Arcade" width="300"/>
+            <a href="https://www.annarbor.org/listing/nickels-arcade/1108/" target="_blank">
+                <button id="event-button">Learn More</button>
+            </a>
         </div>
+
     </main>
 
     <footer>
-        <p>Ava Webster and Lea Srebrenik &copy; 2022</p>
+        <p>Lea Srebrenik, Ava Webster &copy; 2022</p>
     </footer>
 </body>
 </html>

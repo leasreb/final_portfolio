@@ -2,58 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Study Spots in Ann Arbor</title>
 </head>
 <body>
     <div class="skip" ><a tabindex="0" href="#main">Jump To Content</a></div>
     <header>
-		<nav class="navbar">
-			<ul>
-				<li><a href = "index.html" >Home</a></li>
-				<li><a href = "restaurants.html">Restaurants</a></li>
-				<li class="active"><a href = "study.html">Study Spots</a></li>
-			    <li><a href = "events.html">To Do in AA</a></li>
-			</ul>
-		</nav>
+        <marquee behavior="scroll" direction="right">Make sure to watch Michigan take on Purdue in the Big Ten Championship Game on Saturday, December 3rd at 8 p.m.!</marquee>
         <h1>Study Spots in Ann Arbor</h1>
+        <nav>
+            <ul>
+                <li><a href = "index.html" >Home</a></li>
+                <li><a href = "restaurants.html">Restaurants</a></li>
+                <li class="active"></li><a href = "study.html">Study Spots</a></li>
+                <li><a href = "events.html">To Do in AA</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class = "container" id = "main">
-    
-        <div class = "grid">
-            <h2>Law Library</h2>
-            <img src="images2/law.jpeg" alt="Image of Law Library Reading Room" width="300"/>
+    <main class = "container" id = "study-container">
+            <div class = "law">
+                <h2>Law Library</h2>
+                <a href = "images2/law.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "The Reading Room is very quiet and a beautiful place to study"                "
+                data-alt = "Image of Law Library">
+                    <img src="images2/law.jpeg"  width="400" alt="Image of Law Library Reading Room"/>
+                </a>
+            </div>
 
-            <h2>Hatcher Graduate Library</h2>
-            <img src="images2/hatcher.jpeg" alt="Image of Reading Room in Hatcher Graduate Library" width="300"/>
+            <div class = "hatcher">
+                <h2>Hatcher Graduate Library</h2>
+                <a href = "images2/hatcher.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "The Reading Room is on the second floor, as well as individual study rooms throughout the building"
+                data-alt = "Image of Hatcher Library">
+                    <img src="images2/hatcher.jpeg" alt="Image of Reading Room in Hatcher Graduate Library" width="400"/>
+                </a>
+            </div>
 
-            <h2>Shapiro Undergraduate Library (UGLI)</h2>
-            <img src="images2/ugli.jpeg" alt="Image of Students Studying at Large Tables at Shapiro Library" width="300"/>
+            <div class = "shapiro">
+                <h2>Shapiro Undergraduate Library (UGLI)</h2>
+                <a href = "images2/ugli.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "Collaborative spots on the first and second floor; generally quieter on third and fourth floors"
+                data-alt = "Image of UGLI Library">
+                    <img src="images2/ugli.jpeg" alt="Image of Students Studying at Large Tables at Shapiro Library" width="400"/>
+                </a>
+            </div>
 
-            <h2>School of Social Work</h2>
-            <img src="images2/ssw.jpeg" alt="Image of Large Study Room in the School of Social Work" width="400"/>
+            <div class = "ssw">
+                <h2>School of Social Work</h2>
+                <a href = "images2/ssw.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "Large open space with individual desks, group study tables, and comfortable lounge chairs"
+                data-alt = "Image of School of Social Work">
+                    <img src="images2/ssw.jpeg" alt="Image of Large Study Room in the School of Social Work" width="400"/>
+                </a>
+            </div>
 
-            <h2>Ross School of Business</h2>
-            <img src="images2/ross.jpeg" alt="Image of Winter Garden in Ross School of Business" width="300"/>
+            <div class = "ross">
+                <h2>Ross School of Business</h2>
+                <a href = "images2/ross.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "Modern building with many different spots to work at throughout"
+                data-alt = "Image of Ross School of Business">
+                    <img src="images2/ross.jpeg" alt="Image of Winter Garden in Ross School of Business" width="400"/>
+                </a>
+            </div>
 
-            <h2>The Duderstadt Center</h2>
-            <img src="images2/dude.jpeg" alt="Birds-eye Image of Students Studying at the Duderstadt Center" width="300"/>
+            <div class = "dude">
+                <h2>The Duderstadt Center</h2>
+                <a href = "images2/dude.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "Located on North Campus, this 24-hour building offers a variety of study spaces and areas"
+                data-alt = "Image of Duderstadt Center">
+                    <img src="images2/dude.jpeg" alt="Birds-eye Image of Students Studying at the Duderstadt Center" width="400"/>
+                </a>
+            </div>
 
-            <h2>Michigan Union</h2>
-            <img src="images2/union.jpeg" alt="Image of Michigan Union" width="300"/>
+            <div class = "union">
+                <h2>Michigan Union</h2>
+                <a href = "images2/union.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "Various study spots lounges, as well as cafes and restaurants for a quick bite to eat"
+                data-alt = "Image of Michigan Union">
+                    <img src="images2/union.jpeg" alt="Image of Michigan Union" width="400"/>
+                </a>
+            </div>
 
-            <h2>Palmer Commons</h2>
-            <img src="images2/palmer.jpeg" alt="Image of Palmer Commons" width="300"/>
+            <div class = "palmer">
+                <h2>Palmer Commons</h2>
+                <a href = "images2/palmer.jpeg" target="_blank"
+                data-lightbox = "study"
+                data-title = "The Windows Lounge on the 3rd floor serves as a social meeting place for students, as well as a great study resource. Many study nooks also available on floors 4-6"
+                data-alt = "Image of Palmer Commons">
+                    <img src="images2/palmer.jpeg" alt="Image of Palmer Commons" width="400"/>
+                </a>
+            </div>
 
-            <h2>Trotter Multicultural Center</h2>
-            <img src="images2/trotter.png" alt="Image of Trotter Multicultural Center" width="300"/>
-        </div>
+            <div class = "trotter">
+                <h2>Trotter Multicultural Center</h2>
+                <a href = "images2/trotter.png" target="_blank"
+                data-lightbox = "study"
+                data-title = "Various study spots on each floor, including study/meeting rooms and lounges, as well a computer lab"
+                data-alt = "Image of Trotter Multicultural Center">
+                    <img src="images2/trotter.png" alt="Image of Trotter Multicultural Center" width="400"/>
+                </a>
+            </div>
+        <!-- </div> -->
+
     </main>
 
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration' : 10,
+            'wrapAround' : true,
+            positionFromTop : 10
+        })
+    </script>
+
     <footer>
-        <p>Ava Webster and Lea Srebrenik &copy; 2022</p>
+        <p>Lea Srebrenik, Ava Webster &copy; 2022</p>
     </footer>
 </body>
 </html>
