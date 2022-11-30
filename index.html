@@ -8,9 +8,12 @@
  <title> Go Blue Guidebook </title>	
 </head>	
 <body>	
+
+
     <div class="skip" ><a tabindex="0" href="#main">Jump To Content</a></div>
     <header>
-		<nav class="navbar">
+		
+        <nav class="navbar">
 			<ul>
 				<li class="active"><a href = "index.html" >Home</a></li>
 				<li><a href = "restaurants.html">Restaurants</a></li>
@@ -20,17 +23,17 @@
 		</nav>
         <h1>Go Blue Guidebook</h1>
     </header>
-    <main class = "container" id = "main">
+    <main class = "gallery" id = "main">
 		<div class="logo">
             <img src = "images/michiganm.jpeg" alt="logo" width="150" />
         </div>
         
-        <p>
+        <p class = "welcome">
         Hi Michigan students and incoming freshman! We are two Univeristy of Michigan juniors, Lea and Ava, wanting to share our favorite spots on campus and let you in on some hidden gems! On this website, you will find some of our go-to restaurants, study spots, and events on campus. We hope to help you find your new favorite places at Michigan. Go Blue!
         </p>
         
-        <div class="campus images">
-		    <img src = "images/stadium.jpeg" alt="stadium" width="200" height="150"/>
+        <div class="inner-grid">
+		    <img src = "images/stadium.jpeg" id = "stadium" alt="stadium" width="200" height="150"/>
             <img src = "images/campus2.jpeg" alt="Campus" width="200" height="150"/>
             <img src = "images/campus3.jpeg" alt="Campus" width="200" height="150"/>
             <img src = "images/library.jpeg" alt="library" width="200" height="150"/>
@@ -38,29 +41,33 @@
             <img src = "images/statestreet.jpeg" alt="State Street" width="200" height="150"/>
         </div>
         
-        <h2>About Us</h2>
-            
-        <div class="ava-image">
-            <img src = "images/Ava.jpeg" alt="Ava" width="200"/>
+        <div class="about">
+            <h2>About Us</h2>
         </div>
+            
+        <figure class="ava-image">
+            <img src = "images/Ava.jpeg" alt="Ava" width="175"/>
+            <figcaption>Ava</figcaption>
+        </figure>
 
         <div class="Ava text-block">
-            <h3>Ava</h3>
+            
             <p>I'm Ava and I'm from Philadelphia. I am a Junior at the University of Michigan studying Information Analytics with a minor in Computer Science. There are so many great spots and fun things to do in Ann Arbor and I'm excited to share them with you! </p>
         </div>
 
-        <div class="lea-image">
-            <img src = "images/Lea.jpeg" alt="Lea" width="200"/>
-        </div>
+        <figure class="lea-image">
+            <img src = "images/Lea.jpeg" alt="Lea" width="175"/>
+            <figcaption>Lea</figcaption>
+        </figure>
 
         <div class="Lea text-block">
-            <h3>Lea</h3>
+
             <p>I'm Lea. I am from Miami, Florida. I am currently a Junior at the Univeristy of Michigan's School of Information studying Information Analytics. I have loved my experience as a Michigan student so far and am excited to share the fun places I have found. </p>
         </div>
 
         <div class="forms">
             <form
-            action="https://formspree.io/f/moqrldbo"
+            action="https://formspree.io/f/xeqdbeqe"
             method="POST">
             <fieldset>
               <legend id="contact">Contact Us</legend>
@@ -83,7 +90,7 @@
     </main>
    
     <footer>
-		<p>Lea Srebrenik, Ava Webster &copy; 2023</p>
+		<div>Lea Srebrenik, Ava Webster &copy; 2022</div>
 	</footer>
 
 </body>
